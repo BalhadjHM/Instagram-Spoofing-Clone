@@ -98,7 +98,7 @@ function App() {
             <div className='w-full flex justify-center items-center gap-8'>
                 {/* Phone Mockup */}
                 <div className='hidden lg:flex'>
-                    <img src="./../public/phone.png" alt="phone" className='w-[430px]' />
+                    <img src="/phone.png" alt="phone" className='w-[430px]' />
                 </div>
 
                 {/* Login Form */}
