@@ -106,7 +106,7 @@ function App() {
                     {/* First Form */}
                     <div className='py-2 px-10 w-80 flex flex-col justify-between items-center border-2 border-slate-200 rounded'>
                         {/* Logo */}
-                        <img src="../../public/instagram-logo.png" alt="instagram-logo" className='w-44' />
+                        <img src="/instagram-logo.png" alt="instagram-logo" className='w-44' />
                         {/* Inputs */}
                         <div className='space-y-3'>
                             <div className='space-y-1.5'>
@@ -122,7 +122,7 @@ function App() {
                         </div>
                         {/* Facebook login */}
                         <a href="www.facebook.com" className='w-full flex justify-center items-center gap-2'>
-                            <img src="./../public/facebook.svg" alt="facebook" className='w-6' />
+                            <img src="/facebook.svg" alt="facebook" className='w-6' />
                             <p className='text-sm font-semibold text-igBlue'>Log in with Facebook</p>
                         </a>
                         {/* Forget Password */}
@@ -144,8 +144,8 @@ function App() {
                     <div className='py-3 flex flex-col justify-center items-center gap-4'>
                         <p className='text-[0.8rem] text-slate-600 font-medium'>Get the app.</p>
                         <div className='flex justify-center items-center gap-2'>
-                            <img src="./../public/Microsoft.png" alt="Microsoft" className='h-12 border border-slate-200 rounded-lg' />
-                            <img src="./../public/google-play.png" alt="Google Play" className='h-12 border border-slate-200 rounded-lg' />
+                            <img src="/Microsoft.png" alt="Microsoft" className='h-12 border border-slate-200 rounded-lg' />
+                            <img src="/google-play.png" alt="Google Play" className='h-12 border border-slate-200 rounded-lg' />
                         </div>
                     </div>
                 </div>
